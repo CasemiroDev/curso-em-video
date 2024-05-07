@@ -1,0 +1,1 @@
+_Here is all the activities of python in the course_
