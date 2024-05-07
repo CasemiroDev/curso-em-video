@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body{
+    margin: 0;
+}
+
+.aba-logo {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+}
+
+.logo1 {
+    width: 50%;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.logo1  h1{
+    font-size: 2em;
+    margin-bottom: 0;
+}
+
+.logo1 h2{
+    font-size: 0.7em;
+    margin-top: 0px;
+    padding-bottom: 1em;
+}
+
+.aba-login {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-right: 10%;
+    align-items: center;
+}
+
+.aba-login > a {
+    color: white;
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(116, 3, 221, 0.76);
+    font-weight: bold;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+
+}
+
+.abas2{
+    background-color: blueviolet;
+    display: flex;
+    color: white;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.departamentos{
+    width: 20%;
+    margin-left: 10%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.departamentos > a {
+    background-color: rgb(86, 2, 165);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.336);
+}
+
+.search{
+ width: 60%;
+ margin: 0 auto;
+ margin-right: 10%;
+}
+
+.input{
+    width: 96%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 3px 10px;
+}
+
+.image > img{
+    width: 100%;
+    height: 100%;
+}
+
+.bought{
+    background-color: blueviolet;
+    display: flex;
+    color: white;
+    min-width: 100%;
+    border: 2px solid black;
+}
+
+.bought > h1{
+
+}

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Imagens no site</title>
+    <link rel="stylesheet" href="styleofsite.css" />
+    <link rel="shortcut icon" href="arquivos/favicon.ico" type="image/x-icon"
+</head>
+<body>
+    <main>
+        <h1>Imagens no site</h1>
+        <hr />
+        <h2>A tag img</h2>
+        <p>Para usar imagem no site use a tag <b>&lt;img&gt;</b> dentro do "img" use o src(local da imagem nos arquivos ou na web) e depois o alt("nomeação da imagem").<br />Exemplo:</p>
+        <img src="arquivos/foto.jpg.webp" alt="Bolsonaro" width="300" />
+        <br />
+        <hr />
+        <h2>Mudar o favicon</h2>
+        <p>Abra a tag <b>&lt;link&gt;</b> na "head" e abra "rel"(para definir que é uma "shortcut icon"), depois insira href(local e o arquivo do ícone em sí) e por fim o type(para declarar que é uma "image/x-icon.").<br />Exemplo:</p>
+        <p><b>olhe o favicon da página</b></p>
+        <hr />
+        <h2>
+            Adaptação de imagens
+        </h2>
+        <p>Abra a tag <b>&lt;Picture&gt;</b> dentro dela use a tag <b>&lt;source&gt;</b> para cada imagem que for substituida dependente do tamanho, e por último a tag <b>&lt;img&gt;</b> como foto principal em primeiro caso(faça sempra da menor quantidade de pixel até a maior).<br />Exemplo:</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="arquivos/foto-p.png" type="image/png" />
+            <source media="(max-width: 1050px)" srcset="arquivos/foto-m.png" type="image/png" />
+            <img src="arquivos/foto-g.png" alt="Foto grande" />
+        </picture>
+        <br />
+        <p><b>Vá diminuindo a aba do navegador ou use em outro dispositivo maior ou menor.</b></p>
+        <hr />
+        <a href="mysite.html" target="_self">Clique aqui para voltar</a>
+    </main>
+</body>
+</html>

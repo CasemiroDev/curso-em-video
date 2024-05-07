@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Vídeos no site</title>
+    <link rel="stylesheet" href="styleofsite.css" />
+</head>
+<body>
+    <main>
+        <h1>Vídeos no site</h1>
+        <hr />
+        <h2>Vídeos de incorporação local ou hospedado localmente</h2>
+        <p>este vídeo está hospedado no meu prórpio servidor:</p>
+        <video controls width="600" autoplay loop>
+            <source src="arquivos/video.m4v" type="video/m4v" />
+            <source src="arquivos/video.mp4" type="video/mp4" />
+            <p>Seu navegador não tem compatibilidade com esse tipo de arquivo</p>
+        </video>
+        <p>
+            Neste caso o vídeo teve como uso a tag <b>&lt;video&gt;</b> dentro da tag foi usado
+            "controls" para controle do tempo do vídeo e outras coisas, também foi usado o "autoplay" e o "loop" para assim que o vídeo acabar ele se repetir
+            infinitamente.<br /> Dentro da tag <b>&lt;video&gt;</b> foi usado a tag <b>&lt;source&gt;</b>
+            junto com o "src"(local, nome e formato do arquivo) e o "type"(tipo do arquivo) para definir
+            o formato que iria ser usado caso o navegador ñão fosse compatível com um dos outros formatos.
+        </p>
+        <hr />
+        <h2>Vídeos externos com incorporação</h2>
+        <p>Este é um exemplo de vídeo externo com incorporação (no caso do you tube):</p>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1-w1RfGIov4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Onde você simplismente pega o código pelo "compartilhar" de algum site que incorpore em html e joga no seu código, podendo mexer no tamanho("width, height"), controles("controls") e etc.</p>
+        <hr />
+        <a href="mysite.html" target="_self">Clique aqui para voltar</a>
+    </main>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Aprenda CSS</title>
+    <link rel="stylesheet" href="styleofsite.css" />
+</head>
+<body>
+    <main>
+    <h1>CSS</h1>
+    <hr />
+        <h2>CSS Inline</h2>
+        <p>O CSS inline é quando o código de estilos são feitos na própria tag.<br />Exemplo:</p>
+        <code style="color:white;">&lt;p&gt; style="font-family:... color:... and etc."</code>
+        <hr />
+        <h2>CSS Internos</h2>
+        <p>É quando os códigos CSS são feitos pela cabeça usado a tag &lt;style&gt; e dentro dela todas as outras tags que estão no body que você for personalizar.<br />Exemplo:</p>
+        <code style="color:white;">
+            <code>
+                &lt;meta charset="utf-8" /&gt;<br />
+                &lt;title&gt;Aprenda CSS&lt;/title&gt;<br />
+            &lt;style&gt;<br />
+            body {<br />
+            background-color:...<br />
+            etc...<br />
+            <br />
+            h1{<br />
+            color:....<br />
+            font-family:...<br />
+            }<br />
+            &lt;/style&gt;
+        </code>
+        <hr />
+        <h2>CSS Externo</h2>
+        <p>É como o CSS interno mas a diferença é que é feito apenas o código em uma folha separada(deve ser criada assim <code>nomedoarquivo.css</code>), após isso você deve chamar a folha css em seu código html desse jeito:</p><br />
+          <code style="color:white;">
+              &lt;meta charset="utf-8" /&gt;<br />
+              &lt;title&gt;Aprenda CSS&lt;/title&gt;<br />
+              &lt;link rel="stylesheet" href="pasta/nomedoarquivo.css" /&gt;<br />
+          </code>
+        <br />
+        <hr />
+        <h2>Harmonia das cores</h2>
+        <p>Harmonia - foco do estudo do círculo cromático | simetria - cores (o que deixa algo bonito) - cores primárias tem harmonia grosseira - cores secundárias tem harmonia grosseira - cores terciárias são todas as outras misturas de cores (amarelo-esverdeado ou amarelo-alaranjado) - 12 cores no círculo cromático | lado esquerdo - cores frias | lado direito - cores quentes - geralmente se usa cor pirmária da logo do site - cores complementares - cores que tem maior contraste com outras cores | cores análogas - que estão perto uma da outra no círculo cromático - cores análogas relacionadas - em duas cores você tem um degradê destas duas você pula uma cor e pega a tarceira cor depois da pulada, isso para qualquer direção - cores intercaladas - pega uma cor, pula uma pra alguma direção e escolhe a outra, pula mais uma, e pega a terceira cor depois da pulada - três cores intercaladas - triádicas (pula 3 cores e pega outra cor) - cores enquadradas (pula duas cores e pega outra cor) - cores tetrádricas (achar a cor complementar de duas cores formando 4 cores) - monocromia - única cor mudando apenas saturação e brilho.</p>
+            <hr />
+            <h2>Degradê e outras tags</h2>
+            <p>Para usar degradê no seu site use no css dentro de body "background-image: linear-gradient("direção, codigocor, codigocor,..."). Use linear ou radial gradient e use as cores | pode usar porcentagem nas cores para ter a predominância menor ou maior de alguma cor."</p>
+            <p>background-color(cor de fundo) - border-radius(raio de uma borda) - padding(preenchimento) - width(largura) - box-shadow(sombra de uma caixa) - margin(margem) - color(cor de algo) - text-align(alinhamento do texto) - font-family(fonte do texto) - text-shadow(sombra do texto) - text-decoration: none;(tirar linha de links) - entre outra sque irei adicionando..</p>
+            <hr />
+            <a href="mysite.html" target="_self">Clique aqui para voltar</a>
+   </main>
+</body>
+</html>
